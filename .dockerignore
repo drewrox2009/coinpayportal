@@ -1,6 +1,6 @@
 Dockerfile
+Dockerfile.coolify
 docker/Dockerfile
-docker/docker-compose.yml
 docker/.dockerignore
 .dockerignore
 node_modules
