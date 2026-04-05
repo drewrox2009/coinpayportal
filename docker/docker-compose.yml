@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+    expose:
+      - '8080'
