@@ -51,3 +51,6 @@ packages/sdk/node_modules/
 .venv/
 gl-venv/
 certs/
+
+# drewrox2009 local tracking
+.drewrox2009/
