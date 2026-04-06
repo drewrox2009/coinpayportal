@@ -39,6 +39,7 @@ COPY --from=builder /app/package.json ./package.json
 # 11. Expose the port Next.js uses
 EXPOSE 8080
 ENV PORT=8080
+ENV HOSTNAME="0.0.0.0"
 
 # 12. Start the application
 CMD ["pnpm", "start"]
