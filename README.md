@@ -129,10 +129,12 @@ PLATFORM_FEE_WALLET_POL=your_pol_address
 PLATFORM_FEE_WALLET_SOL=your_sol_address
 
 # System HD Wallet Seed Phrases (REQUIRED)
-SYSTEM_MNEMONIC_BTC=your_bip39_mnemonic_phrase
-SYSTEM_MNEMONIC_ETH=your_bip39_mnemonic_phrase
-SYSTEM_MNEMONIC_POL=your_bip39_mnemonic_phrase
-SYSTEM_MNEMONIC_SOL=your_bip39_mnemonic_phrase
+# Generate each phrase with: node scripts/gen-mnemonic.mjs
+# Use a UNIQUE phrase per chain — never reuse.
+SYSTEM_MNEMONIC_BTC="your twelve word bip39 mnemonic phrase goes here"
+SYSTEM_MNEMONIC_ETH="your twelve word bip39 mnemonic phrase goes here"
+SYSTEM_MNEMONIC_POL="your twelve word bip39 mnemonic phrase goes here"
+SYSTEM_MNEMONIC_SOL="your twelve word bip39 mnemonic phrase goes here"
 
 # Tatum API (exchange rates)
 TATUM_API_KEY=your_tatum_api_key
@@ -253,6 +255,9 @@ coinpay reputation profile did:web:coinpayportal.com:merchant:123
 ```
 coinpayportal/
 ├── docs/                     # Documentation
+├── scripts/                  # Operational & dev scripts
+│   ├── gen-mnemonic.mjs      # BIP39 mnemonic generator (no npm deps needed)
+│   └── ...
 ├── src/
 │   ├── app/
 │   │   ├── api/
