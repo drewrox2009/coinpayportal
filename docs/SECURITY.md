@@ -36,7 +36,7 @@ Security is paramount in CoinPay as we handle cryptocurrency transactions and pr
 
 #### Key Generation
 
-System HD wallet mnemonics are generated offline using the included helper script:
+System HD wallet mnemonics can be generated offline using the included helper script:
 
 ```bash
 # Run from the repo root — no npm packages required
