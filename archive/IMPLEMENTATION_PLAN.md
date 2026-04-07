@@ -1,3 +1,10 @@
+> ⚠️ **ARCHIVED — 2026-04-07**
+> This file is superseded by [`PROJECT_STATUS.md`](../PROJECT_STATUS.md) at the project root.
+> This was the original pre-build planning document. Note: it contains an incorrect 2% fee figure (actual: 0.5%).
+> Do not update this file.
+
+---
+
 # CoinPay Implementation Plan
 
 ## Project Overview

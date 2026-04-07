@@ -1,3 +1,10 @@
+> ⚠️ **ARCHIVED — 2026-04-07**
+> This file is superseded by [`PROJECT_STATUS.md`](../PROJECT_STATUS.md) at the project root.
+> It reflects the state of the project as of **November 2025** (409 tests, broken phase numbering).
+> Do not update this file.
+
+---
+
 # CoinPay - Implementation Status
 
 ## Current Status: Phase 6 Complete ✅
