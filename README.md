@@ -128,6 +128,12 @@ PLATFORM_FEE_WALLET_ETH=your_eth_address
 PLATFORM_FEE_WALLET_POL=your_pol_address
 PLATFORM_FEE_WALLET_SOL=your_sol_address
 
+# System HD Wallet Seed Phrases (REQUIRED)
+SYSTEM_MNEMONIC_BTC=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_ETH=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_POL=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_SOL=your_bip39_mnemonic_phrase
+
 # Tatum API (exchange rates)
 TATUM_API_KEY=your_tatum_api_key
 
@@ -141,6 +147,9 @@ GL_NOBODY_KEY=/path/to/client-key.pem
 # Stripe (optional)
 STRIPE_SECRET_KEY=sk_live_xxx
 STRIPE_WEBHOOK_SECRET=whsec_xxx
+
+# NOTE: For all optional variables and alt chain configurations 
+# (BCH, DOGE, USDC, etc), refer to the .env.example file.
 
 ```
 

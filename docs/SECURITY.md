@@ -504,6 +504,12 @@ PLATFORM_FEE_WALLET_ETH=your-eth-address
 PLATFORM_FEE_WALLET_POL=your-pol-address
 PLATFORM_FEE_WALLET_SOL=your-sol-address
 
+# System Wallets (Required)
+SYSTEM_MNEMONIC_BTC=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_ETH=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_POL=your_bip39_mnemonic_phrase
+SYSTEM_MNEMONIC_SOL=your_bip39_mnemonic_phrase
+
 # Tatum API
 TATUM_API_KEY=your-tatum-api-key
 
